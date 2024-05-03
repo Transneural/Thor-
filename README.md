@@ -3,22 +3,6 @@ Thor Programing Language
 
 Thor is a high-level programming language designed for building and training neural networks. It provides a simple and intuitive syntax for defining complex neural network architectures, as well as a range of built-in functions for common tasks such as data loading, preprocessing, and evaluation. Thor also supports advanced features such as transfer learning, model pruning, and automatic differentiation, making it a powerful tool for both beginners and experienced practitioners.
 
-TODO List
-Here are some ideas for features and improvements that we could add to the Thor language:
-
-#Add support for more layer types, such as recurrent neural network (RNN) layers, attention layers, and normalization layers.
-#Add support for more optimizers, such as stochastic gradient descent with momentum (SGDM), Adadelta, and RMSprop.
-#Add support for more activation functions, such as leaky ReLU, exponential linear unit (ELU), and hyperbolic tangent (tanh).
-#Implement a just-in-time (JIT) compiler to improve the performance of Thor programs.
-#Add support for distributed training, allowing Thor programs to be trained on multiple GPUs or machines.
-#Develop a standard library of pre-trained models and utility functions to make it easier for users to get started with Thor.
-#Create a comprehensive user guide and API documentation to help users learn and use the language effectively.
-#Implement a package manager to make it easy to install and manage Thor packages and dependencies.
-#Develop a testing framework to ensure the correctness and reliability of Thor programs.
-#Create a community forum or mailing list to facilitate discussion and collaboration among Thor users and developers.
-
-You can check Readme.md for more info. 
-
 # Thor Language
 
 Thor is a high-level, declarative programming language for building artificial intelligence systems. It provides a simple and intuitive syntax for defining neural networks, training them, and using them for inference.
@@ -116,6 +100,22 @@ Thor includes a standard library of functions and classes that can be imported a
 math: Mathematical functions like sin, cos, and exp.
 array: Array manipulation functions like reshape, concatenate, and split.
 file: File I/O functions like read_file, write_file, and list_files.
+
+TODO List
+Here are some ideas for features and improvements that we could add to the Thor language:
+
+#Add support for more layer types, such as recurrent neural network (RNN) layers, attention layers, and normalization layers.
+#Add support for more optimizers, such as stochastic gradient descent with momentum (SGDM), Adadelta, and RMSprop.
+#Add support for more activation functions, such as leaky ReLU, exponential linear unit (ELU), and hyperbolic tangent (tanh).
+#Implement a just-in-time (JIT) compiler to improve the performance of Thor programs.
+#Add support for distributed training, allowing Thor programs to be trained on multiple GPUs or machines.
+#Develop a standard library of pre-trained models and utility functions to make it easier for users to get started with Thor.
+#Create a comprehensive user guide and API documentation to help users learn and use the language effectively.
+#Implement a package manager to make it easy to install and manage Thor packages and dependencies.
+#Develop a testing framework to ensure the correctness and reliability of Thor programs.
+#Create a community forum or mailing list to facilitate discussion and collaboration among Thor users and developers.
+
+You can check Readme.md for more info. 
 
 Examples
 Here are some examples of programs written in Thor:
