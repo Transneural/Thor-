@@ -1,5 +1,4 @@
-# Thor-
-Thor Programing Language
+# Thor-Thor Programing Language
 
 Thor is a high-level programming language designed for building and training neural networks. It provides a simple and intuitive syntax for defining complex neural network architectures, as well as a range of built-in functions for common tasks such as data loading, preprocessing, and evaluation. Thor also supports advanced features such as transfer learning, model pruning, and automatic differentiation, making it a powerful tool for both beginners and experienced practitioners.
 
