@@ -1,6 +1,10 @@
 # Thor-Thor Programing Language
 
-Thor is a high-level programming language designed for building and training neural networks. It provides a simple and intuitive syntax for defining complex neural network architectures, as well as a range of built-in functions for common tasks such as data loading, preprocessing, and evaluation. Thor also supports advanced features such as transfer learning, model pruning, and automatic differentiation, making it a powerful tool for both beginners and experienced practitioners.
+Thor is a high-level programming language designed for building and training neural networks.
+It provides a simple and intuitive syntax for defining complex neural network architectures, 
+as well as a range of built-in functions for common tasks such as data loading, preprocessing, and evaluation. 
+Thor also supports advanced features such as transfer learning, model pruning, and automatic differentiation,
+making it a powerful tool for both beginners and experienced practitioners.
 
 # Thor Language
 
@@ -11,14 +15,16 @@ Thor is a high-level, declarative programming language for building artificial i
 * Support for a wide range of layer types, including dense, conv2d, maxpooling2d, LSTM, GRU, and attention layers.
 * Support for a variety of optimizers, including SGD, Adam, RMSprop, Adagrad, and Adadelta.
 * Support for a variety of activation functions, including ReLU, sigmoid, tanh, and ELU.
-* Support for a variety of loss functions, including mean squared error, categorical crossentropy, binary crossentropy, hinge loss, and Huber loss.
+* Support for a variety of loss functions, including mean squared error, categorical crossentropy,
+  binary crossentropy, hinge loss, and Huber loss.
 * Support for transfer learning, model pruning, and automatic differentiation.
 
 ## Syntax
 
 ### Neural Networks
 
-A neural network is defined using the `neural_network` keyword followed by a name and a block of layers. Each layer is defined using the `layer` keyword followed by the layer type and its parameters.
+A neural network is defined using the `neural_network` keyword followed by a name and a block of layers. 
+Each layer is defined using the `layer` keyword followed by the layer type and its parameters.
 
 Example:
 ```python
@@ -57,10 +63,12 @@ This function iterates over the nodes in the AST and calls the appropriate code 
 
 # THOR
 
-THOR is a high-level, declarative programming language for building artificial intelligence systems. It provides a simple and intuitive syntax for defining neural networks, training them, and using them for inference.
+THOR is a high-level, declarative programming language for building artificial intelligence systems.
+It provides a simple and intuitive syntax for defining neural networks,
+ training them, and using them for inference.
 
 Getting Started
-Here's an example of a simple program in My Language that defines a neural network with two dense layers and trains it on the MNIST dataset:
+Here's an example of a simple program in Thor that defines a neural network with two dense layers and trains it on the MNIST dataset:
 
 
 neural_network my_nn {
@@ -79,22 +87,28 @@ evaluate(my_nn, data, labels);
 
 Language Reference
 Neural Networks
-A neural network is defined using the neural_network keyword followed by a name and a block of layers. Each layer is defined using the dense, conv2d, or maxpooling2d keyword followed by its parameters.
+A neural network is defined using the neural_network keyword followed by a name and a block of layers.
+Each layer is defined using the dense, conv2d, or maxpooling2d keyword followed by its parameters.
 
 Loss Functions
-A loss function is defined using the loss_function keyword followed by a name. The available loss functions are mean_squared_error and categorical_crossentropy.
+A loss function is defined using the loss_function keyword followed by a name.
+The available loss functions are mean_squared_error and categorical_crossentropy.
 
 Optimizers
-An optimizer is defined using the optimizer keyword followed by a name and its parameters. The available optimizers are sgd and adam.
+An optimizer is defined using the optimizer keyword followed by a name and its parameters.
+The available optimizers are sgd and adam.
 
 Data Loading and Preprocessing
-Data can be loaded using the data_load keyword followed by a file name. The data can be preprocessed using the preprocess keyword followed by the data and labels.
+Data can be loaded using the data_load keyword followed by a file name.
+The data can be preprocessed using the preprocess keyword followed by the data and labels.
 
 Training and Evaluation
-A neural network can be trained using the train keyword followed by the network, data, labels, and training parameters. The network can be evaluated using the evaluate keyword followed by the network, data, and labels.
+A neural network can be trained using the train keyword followed by the network, data, labels, and training parameters.
+The network can be evaluated using the evaluate keyword followed by the network, data, and labels.
 
 Standard Library
-Thor includes a standard library of functions and classes that can be imported and used in your code. The available modules are:
+Thor includes a standard library of functions and classes that can be imported and used in your code.
+ The available modules are:
 
 math: Mathematical functions like sin, cos, and exp.
 array: Array manipulation functions like reshape, concatenate, and split.
